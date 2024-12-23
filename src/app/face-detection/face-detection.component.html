@@ -1,0 +1,7 @@
+<video #videoElement autoplay></video>
+<div *ngIf="isFaceDetected">
+    <iframe src="assets/sample.pdf" width="100%" height="600px"></iframe>
+</div>
+<div *ngIf="!isFaceDetected">
+    <p>No face detected. The PDF is hidden.</p>
+</div>
